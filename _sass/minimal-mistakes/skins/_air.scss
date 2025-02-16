@@ -7,12 +7,16 @@ $background-color: #eeeeee !default;
 $text-color: #222831 !default;
 $muted-text-color: #393e46 !default;
 $primary-color: #004aad !default;
-$border-color: mix(#fff, #393e46, 75%) !default;
+$border-color: mix(#fff, #004aad, 75%) !default;
 $footer-background-color: $primary-color !default;
 $link-color: #393e46 !default;
-$masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
+$masthead-link-color: #004aad !default;
+$masthead-link-color-hover: #004aad !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+h1, h2, h3 {
+  color: #004aad; // Change this to your preferred color
+}
 
 .page__footer {
   color: #fff !important; // override
