@@ -34,20 +34,18 @@ copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : "giscus"
   giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-    strict               : # 1 for enabled, 0 for disabled (default)
-    input_position       : # "top", "bottom" # The comment input box will be placed above or below the comments
-    emit_metadata        : # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
-    lang                 : # "en" (default)
-    lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
-  staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    repo_id              : "R_kgDON5t1TA"
+    category_name        : "General"
+    category_id          : "DIC_kwDON5t1TM4CnBf4"
+    discussion_term      : "pathname"
+    reactions_enabled    : 1
+    theme                : "preferred_color_scheme"
+    strict               : 0
+    input_position       : "top"
+    emit_metadata        : 0
+    lang                 : "es"
+    lazy                 : true
+  
 reCaptcha:
   siteKey                :
   secret                 :
@@ -55,19 +53,12 @@ reCaptcha:
 atom_feed:
   hide: true
 
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true
+search_full_content      : false
+search_provider          : lunr
 lunr:
-  search_within_pages    : # true, false (default)
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_within_pages    : true
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
