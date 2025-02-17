@@ -8,9 +8,12 @@
 <loc>http://localhost:4000/_posts/2025-02-16-post_test/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/Talleres/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/temario/</loc>
 </url>
 </urlset>
