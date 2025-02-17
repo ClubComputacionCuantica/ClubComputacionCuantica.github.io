@@ -1,7 +1,7 @@
 ---
 title: Talleres
 layout: collection
-permalink: /Talleres/
+permalink: /talleres/
 collection: talleres
 entries_layout: grid
 classes: wide

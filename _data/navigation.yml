@@ -3,7 +3,7 @@ main:
   - title: "Sobre nosotros"
     url: 
   - title: "Talleres"
-    url:
+    url: /talleres
   - title: "Notas"
     url: https://clubcomputacioncuantica.github.io/notas
   - title: "Otros recursos"

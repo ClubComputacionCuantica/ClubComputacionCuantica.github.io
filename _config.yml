@@ -279,6 +279,10 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  talleres:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
