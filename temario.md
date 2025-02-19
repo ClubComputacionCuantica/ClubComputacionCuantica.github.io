@@ -148,4 +148,3 @@ Exploración de cómo los algoritmos cuánticos pueden revolucionar el campo del
 
 ### 5.13 Aplicaciones de la Computación Cuántica a la Química
 Estudio de cómo la computación cuántica puede tener un impacto significativo en la simulación de procesos químicos.
-
