@@ -9,7 +9,7 @@ header:
   image: /assets/images/sudoku_example_circuit.jpeg
 ---
 
-🔗 [English version](clubcomputacioncuantica.github.io/sudoku-nisq-en)  
+🔗 [English version](/sudoku-nisq-en)  
 
 ### 🚀 Próximamente...
 
@@ -25,4 +25,4 @@ Este proyecto pone a prueba los algoritmos cuánticos y las capacidades del hard
 
 Acompáñanos mientras compartimos nuestros hallazgos, desafíos y avances en este experimento cuántico de Sudoku.  
 
-🚧 **Primeras actualizaciones próximamente...** 🚧  
+🚧 **Actualizaciones próximamente...** 🚧  

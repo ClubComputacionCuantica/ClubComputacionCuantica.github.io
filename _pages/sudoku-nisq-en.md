@@ -23,4 +23,4 @@ This project will put quantum algorithms and current NISQ hardware's capabilitie
 
 Stay tuned as we share our findings, challenges, and breakthroughs in this quantum Sudoku experiment!
 
-🚧 **First updates coming soon...** 🚧
+🚧 **Updates coming soon...** 🚧

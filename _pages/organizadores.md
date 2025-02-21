@@ -8,17 +8,17 @@ header:
   image: /assets/images/quantum_club_team.jpeg
 ---
 
-### 👥 Organizadores del Club  
+### 👥 Organizadores del Club
 
 Nuestro club es liderado por un grupo de estudiantes apasionados por la **computación cuántica**, dedicados a crear un espacio de aprendizaje, discusión y colaboración.
 
-- **[Nombre]** – 
+- **[Nombre]** – Organizador Principal
   📍 Breve descripción.
 
-- **[Nombre]** – Rol  
+- **[Nombre]** – Rol
   📍 Breve descripción.
 
-#### 💡 **Colaboradores y equipo de apoyo**  
+#### 💡 **Colaboradores y equipo de apoyo**
 
 Además de los coordinadores principales, contamos con miembros que apoyan en la organización de talleres, charlas y proyectos, asegurando que el club siga creciendo y ofreciendo contenido de calidad.  
 

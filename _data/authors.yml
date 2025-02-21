@@ -1,7 +1,7 @@
 author:
   name             : "Rob Navarro"
-  avatar           : # "/assets/images/authors/bio-photo.jpg"
-  bio              : "atemático explorando la computación cuántica y el internet cuántico."
+  avatar           : /assets/images/authors/rob-photo.jpg"
+  bio              : "Matemático explorando la computación cuántica y el internet cuántico."
   location         : "Ciudad de México"
   links:
 
@@ -37,3 +37,17 @@ inst_Mafer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
+
+
+inst_Rob:
+  name             : "Instructor: Rob Navarro"
+  avatar           : /assets/images/authors/rob-photo.jpg"
+  bio              : "Matemático explorando la computación cuántica y el internet cuántico."
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/roberto-navarro-1152242a3/"
+
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/RobBEN93"

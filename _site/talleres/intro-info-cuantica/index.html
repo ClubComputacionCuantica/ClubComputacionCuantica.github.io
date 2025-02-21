@@ -10,26 +10,24 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Sudoku NISQ | Club de Computación Cuántica</title>
-<meta name="description" content="¿Pueden las computadoras cuánticas actuales resolver sudokus?">
+<!-- begin _includes/seo.html --><title>Introducción a la Teoría de la Información Cuántica | Club de Computación Cuántica</title>
+<meta name="description" content="Mini-curso básico que introduce conceptos fundamentales de la información cuántica: operadores de densidad, canales cuánticos, entropía de von Neumann, entre otros.">
 
 
-  <meta name="author" content="Your Name">
+  <meta name="author" content="Instructor: Rob Navarro">
+  
+  <meta property="article:author" content="Instructor: Rob Navarro">
   
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="es_MX">
 <meta property="og:site_name" content="Club de Computación Cuántica">
-<meta property="og:title" content="Sudoku NISQ">
-<meta property="og:url" content="http://localhost:4000/sudoku-nisq">
+<meta property="og:title" content="Introducción a la Teoría de la Información Cuántica">
+<meta property="og:url" content="http://localhost:4000/talleres/intro-info-cuantica/">
 
 
-  <meta property="og:description" content="¿Pueden las computadoras cuánticas actuales resolver sudokus?">
-
-
-
-  <meta property="og:image" content="http://localhost:4000/assets/images/sudoku_example_circuit.jpeg">
+  <meta property="og:description" content="Mini-curso básico que introduce conceptos fundamentales de la información cuántica: operadores de densidad, canales cuánticos, entropía de von Neumann, entre otros.">
 
 
 
@@ -37,14 +35,18 @@
 
 
 
+  <meta property="article:published_time" content="2025-02-21T16:40:45-06:00">
 
 
-  
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/sudoku-nisq">
+
+<link rel="canonical" href="http://localhost:4000/talleres/intro-info-cuantica/">
 
 
 
@@ -103,7 +105,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 
   </head>
 
-  <body class="layout--single" dir="ltr">
+  <body class="layout--single wide" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Saltar a navegación principal</a></li>
@@ -175,24 +177,6 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 
     <div class="initial-content">
       
-  
-
-
-
-
-
-
-
-<div class="page__hero"
-  style=" background-image: url('');"
->
-  
-    <img src="/assets/images/sudoku_example_circuit.jpeg" alt="Sudoku NISQ" class="page__hero-image">
-  
-  
-</div>
-
-
 
 
 
@@ -216,7 +200,17 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
         <span class="sep">/</span>
       
       
-        <li class="current">Sudoku NISQ</li>
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/talleres" itemprop="item"><span itemprop="name">Talleres</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">Introducción a la Teoría de la Información Cuántica</li>
       
     
   </ol>
@@ -227,11 +221,131 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 
 <div id="main" role="main">
   
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/authors/rob-photo.jpg%22" alt="Instructor: Rob Navarro" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Instructor: Rob Navarro</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Matemático explorando la computación cuántica y el internet cuántico.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Seguir</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://www.linkedin.com/in/roberto-navarro-1152242a3/" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/RobBEN93" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      <h3>Info:</h3>
+      <p>TBD</p>
+
+      
+    
+      
+      <h3>Prerrequisitos:</h3>
+      <p>TBD</p>
+
+      
+    
+    
+  
+  </div>
+
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Sudoku NISQ">
-    <meta itemprop="description" content="¿Pueden las computadoras cuánticas actuales resolver sudokus?">
+    <meta itemprop="headline" content="Introducción a la Teoría de la Información Cuántica">
+    <meta itemprop="description" content="Mini-curso básico que introduce conceptos fundamentales de la información cuántica: operadores de densidad, canales cuánticos, entropía de von Neumann, entre otros.">
     
     
 
@@ -239,7 +353,7 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="http://localhost:4000/sudoku-nisq" itemprop="url">Sudoku NISQ
+            <a href="http://localhost:4000/talleres/intro-info-cuantica/" itemprop="url">Introducción a la Teoría de la Información Cuántica
 </a>
           </h1>
           
@@ -250,25 +364,13 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 
       <section class="page__content" itemprop="text">
         
-        <p>🔗 <a href="/sudoku-nisq-en">English version</a></p>
+        <p>La <strong>teoría de la información cuántica</strong> establece un marco fundamental para comprender la naturaleza de la información en sistemas cuánticos, extendiendo limitaciones clásicas. Este minicurso introduce de manera básica conceptos clave como operadores de densidad, entropía, canales cuánticos, entre otros, proporcionando una base rigurosa pero accesible.</p>
 
-<h3 id="-próximamente">🚀 Próximamente…</h3>
+<p>Además de ser fundamental en computación cuántica, estos principios también tienen aplicaciones en diversas áreas, como la astrofísica, la materia condensada y la termodinámica cuántica.</p>
 
-<p>¿Puede la <strong>computación cuántica de la era NISQ (Noisy Intermediate-Scale Quantum)</strong> resolver <strong>sudokus</strong>?</p>
+<h2 id="temario">Temario</h2>
 
-<p>Este proyecto pone a prueba los algoritmos cuánticos y las capacidades del hardware NISQ actual en un problema accesible para todos.</p>
-
-<p>🔬 <strong>Qué esperar:</strong></p>
-<ul>
-  <li><strong>Enfoques cuánticos e híbridos</strong> 🧠⚛️</li>
-  <li><strong>Evaluación de software y hardware NISQ</strong> 🔍</li>
-  <li><strong>Resultados y análisis</strong> 📊</li>
-  <li><strong>Código abierto y discusión</strong> 💬</li>
-</ul>
-
-<p>Acompáñanos mientras compartimos nuestros hallazgos, desafíos y avances en este experimento cuántico de Sudoku.</p>
-
-<p>🚧 <strong>Actualizaciones próximamente…</strong> 🚧</p>
+<h1 id="tbd">TBD</h1>
 
         
       </section>
@@ -285,6 +387,15 @@ src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
       
 
       
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Anterior</a>
+    
+    
+      <a href="/talleres/taller-fisica-frontera/" class="pagination--pager" title="Física Emergente: Programación Cuántica y Física de Frontera">Siguiente</a>
+    
+  </nav>
+
 
     </div>
 
