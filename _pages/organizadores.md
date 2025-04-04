@@ -4,8 +4,8 @@ excerpt: "Conoce a las personas detrás del Club de Computación Cuántica."
 permalink: /organizadores
 layout: single
 author_profile: false
-header:
-  image: /assets/images/quantum_club_team.jpeg
+# header:
+  # image: /assets/images/quantum_club_team.jpeg
 ---
 
 ### 👥 Organizadores del Club

@@ -8,7 +8,7 @@ excerpt: "Exploración de la física moderna a través de la computación cuánt
 # header:
   # teaser: assets/images/unsplash-gallery-image-3-th.jpg # This is what displays when sharing to FB, twitter or whatever, I think
 sidebar:
-  - title: "**Grabaciones previas**"
+  - title: "Grabaciones previas"
     text: "[YouTube](https://www.youtube.com/playlist?list=PL0tSf_YDXcSqmqysUOBNPIp2KVkxQqkq7)"
   - title: "Reanudación del curso"
     text: "*Por definir...*"
