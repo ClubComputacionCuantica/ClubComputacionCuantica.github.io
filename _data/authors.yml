@@ -1,10 +1,9 @@
 author:
   name             : "Rob Navarro"
-  avatar           : /assets/images/authors/rob-photo.jpg"
+  avatar           : /assets/images/authors/rob.png
   bio              : "Matemático explorando la computación cuántica y el internet cuántico."
   location         : "Ciudad de México"
   links:
-
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       # url: "https://www.linkedin.com/in/roberto-navarro-1152242a3/"
@@ -14,35 +13,24 @@ author:
       # url: "https://github.com/RobBEN93"
 
 inst_Mafer:
-  name             : "Instructora: Mafer Lorem Ipsum"
-  avatar           : "/assets/images/authors/mafer.png"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Por: Maria Fernanda Martínez"
+  avatar           : /assets/images/authors/mafer.png
+  location         : "Ciudad de México"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "Linkedin"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://facebook.com/"
+      url: "https://www.linkedin.com/in/maria-fernanda-martinez-vazquez/"
+    
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/ferabyss"
 
 
 inst_Rob:
-  name             : "Instructor: Rob Navarro"
-  avatar           : /assets/images/authors/rob-photo.jpg"
+  name             : "Por: Rob Navarro"
+  avatar           : /assets/images/authors/rob.png
   bio              : "Matemático explorando la computación cuántica y el internet cuántico."
+  location         : "Ciudad de México"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"

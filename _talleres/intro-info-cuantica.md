@@ -4,9 +4,9 @@ author: inst_Rob
 author_profile: true
 layout: single
 classes: wide
-excerpt: "Mini-curso básico que introduce conceptos fundamentales de la información cuántica: operadores de densidad, canales cuánticos, entropía de von Neumann, entre otros."
-header:
-  teaser: #assets/images/unsplash-gallery-image-3-th.jpg # This is what displays when sharing to FB, twitter or whatever, I think
+excerpt: "Introduce conceptos fundamentales: operadores de densidad, canales cuánticos, entropía de von Neumann, entre otros"
+# header:
+  # teaser: #assets/images/unsplash-gallery-image-3-th.jpg # This is what displays when sharing to FB, twitter or whatever, I think
 gallery:
   - url: #/assets/images/unsplash-gallery-image-1.jpg
     image_path: #assets/images/unsplash-gallery-image-1-th.jpg
