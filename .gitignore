@@ -3,3 +3,6 @@ _site/
 
 # Ignore dependency lock file
 Gemfile.lock
+
+#Excludes assets\images\home-page-feature.png
+*.Zone.Identifier
