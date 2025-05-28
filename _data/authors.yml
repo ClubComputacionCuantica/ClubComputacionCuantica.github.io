@@ -16,6 +16,7 @@ inst_Mafer:
   name             : "Por: Maria Fernanda Martínez"
   avatar           : /assets/images/authors/mafer.png
   location         : "Ciudad de México"
+  webpage          : "https://github.com/ferabyss" #Add a link when clicking the photos (main link)
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -31,6 +32,7 @@ inst_Rob:
   avatar           : /assets/images/authors/rob.png
   bio              : "Matemático explorando la computación cuántica y el internet cuántico."
   location         : "Ciudad de México"
+  webpage          : "https://github.com/RobBEN93"  #Add a link when clicking the photos (main link)
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
