@@ -17,11 +17,12 @@ gallery:
   - url: #/assets/images/unsplash-gallery-image-3.jpg
     image_path: #assets/images/unsplash-gallery-image-3-th.jpg
     alt: #"placeholder image 3"
-sidebar:
-  - title: "Info:"
-    text: "TBD"
-  - title: "Prerrequisitos:"
-    text: "TBD"
+# Comment the sidebar info recall it's empty and unnecessary
+#sidebar:
+#  - title: "Info:"
+#    text: "TBD"
+#  - title: "Prerrequisitos:"
+#    text: "TBD"
 # {% include gallery caption="This is a sample gallery to go along with this case study." %}
 ---
 
