@@ -32,4 +32,4 @@ Además de ser fundamental en computación cuántica, estos principios también 
 
 ## Temario
 
-# TBD
+Perdona, por ahora se está decidiendo el temario, sin embargo tú puedes ayudar a decirlo. [Únete a nuestro discord](https://discord.com/invite/4Js4X82Ky5)!
