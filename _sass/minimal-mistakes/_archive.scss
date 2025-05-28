@@ -235,6 +235,13 @@
    ========================================================================== */
 
 .feature__wrapper {
+  display: flex; /*Change the way the layout behaves*/
+  flex-direction: row;
+
+  @media (max-width: 576px) { /* Give a breakpoint for mobile */
+    flex-direction: column; /* Stacks vertically on smaller screens */
+  }
+
   @include clearfix();
   margin-bottom: 2em;
   border-bottom: 1px solid $border-color;
@@ -248,6 +255,7 @@
   position: relative;
   margin-bottom: 2em;
   font-size: 1.125em;
+  flex-grow: 1; /*Expands every item to fit the container evenly spaced*/
 
   @include breakpoint($small) {
     float: inline-start;
