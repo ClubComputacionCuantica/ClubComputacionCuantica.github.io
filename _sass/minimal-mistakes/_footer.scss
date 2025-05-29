@@ -7,7 +7,7 @@
   float: inline-start;
   margin-inline: 0;
   width: 100%;
-  margin-top: 3em;
+  margin-top: 1em; // Removes a little space between the footer and the main content.
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
