@@ -7,13 +7,21 @@
   float: inline-start;
   margin-inline: 0;
   width: 100%;
-  margin-top: 1em; // Removes a little space between the footer and the main content.
+  margin-top: 0.1em; // Removes a little space between the footer and the main content.
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
   background-color: $footer-background-color;
+
+  @include breakpoint($small){
+    height: 15vh;
+  }
+
+  @include breakpoint($large){
+    height:auto;
+  }
 
   footer {
     @include clearfix;
