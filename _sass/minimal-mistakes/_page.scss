@@ -21,7 +21,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100vh;
+  min-height: 100vh; //The min height of the canvas is the height of the device screen. Without in there is a blanck space below the whole code
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -174,12 +174,27 @@ body {
 
 .page__hero {
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: 2em; //For mobile screens
   @include clearfix;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
+
+  @include breakpoint($small){  // For tablet screens
+    margin-top: 4em;
+    margin-bottom: 6em;
+  }
+
+  @include breakpoint($medium){ // For wide tablets
+    margin-top: 1.5em;
+    margin-bottom: 3.5em;
+  }
+
+  @include breakpoint($medium-wide){ //For desktop screens
+    margin-top: 0em;
+    margin-bottom: 2em;
+  }
 
   &--overlay {
     position: relative;
@@ -232,6 +247,35 @@ body {
   width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
+
+  @include breakpoint($x-small){
+    height: 150px;
+    object-fit: cover; /* Crops the image */
+    object-position: 15% center; /* Moves focus toward the left */
+  }
+
+  @include breakpoint(470px){
+    height: 180px;
+    object-fit: cover; /* Crops the image */
+    object-position: 15% center; /* Moves focus toward the left */
+  }
+  
+  @include breakpoint($small){
+    height: 240px;
+    object-fit: cover; /* Crops the image */
+    object-position: 15% center; /* Moves focus toward the left */
+  }
+
+  @include breakpoint($medium){
+    height: 300px;
+    object-fit: cover; /* Crops the image */
+    object-position: 15% center; /* Moves focus toward the left */
+  }
+
+  @include breakpoint($medium-wide){
+    height: auto;
+  }
+
 }
 
 .page__hero-caption {

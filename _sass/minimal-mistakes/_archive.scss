@@ -20,6 +20,12 @@
 
 .archive__item {
   position: relative;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  @include breakpoint($small){
+    margin-left: 0vw;
+    margin-right: 0vw;
+  }
 
   a {
     position: relative;
@@ -236,10 +242,10 @@
 
 .feature__wrapper {
   display: flex; /*Change the way the layout behaves*/
-  flex-direction: row;
+  flex-direction: column;
 
-  @media (max-width: 576px) { /* Give a breakpoint for mobile */
-    flex-direction: column; /* Stacks vertically on smaller screens */
+  @include breakpoint($small) { /* Give a breakpoint for mobile */
+    flex-direction: row; /* Stacks horizontally on tablet and desktop screens */
   }
 
   @include clearfix();

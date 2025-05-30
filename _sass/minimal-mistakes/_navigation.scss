@@ -197,6 +197,10 @@
 
     &.site-title {
       margin-inline-start: 0;
+      font-size: 0.95rem;
+      @include breakpoint($small){
+        font-size: 1.2rem;
+      }
     }
   }
 
